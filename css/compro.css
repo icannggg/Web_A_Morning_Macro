@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: rgb(167,210,187);
+    background: linear-gradient(90deg, rgba(167,210,187,1) 0%, rgba(251,248,243,1) 100%);
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    height: 40px;
+    width: auto;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #FBF8F3 ;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2 );
+    padding: 0px 5%;
+}
+
+ul
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+}
+
+.navigation
+{
+    display: flex;
+}
+
+
+
+nav ul li a
+{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000000;
+    padding: 12px 2px;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active
+{
+    border-bottom:3px solid #5BA17B;
+    color: #5BA17B;
+    transition: 100ms;
+}
+
+/* search */
+.search-box 
+{
+   height: 15px; 
+   width: auto;
+   padding: 10px 15px;
+   border-bottom:3px solid #b8b8b8;
+}
+
+.search-box input
+{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.navigation2
+{
+    display: flex;
+}
+
+
+
+nav ul li a
+{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.navigation2 a {
+    text-decoration: none;
+    color: #000000;
+    padding: 12px 2px;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.box1
+{
+    margin-right: 10px;
+}
+
+.box1 a:hover,
+.box1 a.active
+{
+    border-bottom:3px solid #5BA17B;
+    color: #5BA17B;
+    transition: 100ms;
+}
+
+.box2
+{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box2 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
+    border-radius: 50%;
+}
+
+.side-bar{
+    background: #FBF8F3 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+
+.side-bar p:nth-child(1)
+{
+    padding: 30px;
+}
+
+.fotoprofil
+{
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+}
+
+.boxlogout{
+    margin-top: 8%;
+}
+
+.boxlogout a
+{
+    background-color: #82AE97;
+    color: #FBF8F3;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.boxlogout a:hover{
+    background-color: #5BA17B;
+    color: #FBF8F3;
+    transition: 0.2s;
+}
+
+.list1
+{
+    display: block;
+    line-height: 60px;
+    transition: 0.5s;
+    align-items: center;
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 70px;
+}
+
+.list1 a:hover{
+    color: #82AE97;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.list1 a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.list1 i{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000000;
+} 
+
+.list1 :nth-child(1)
+{
+    margin-bottom: 10px;
+}
+.list1 :nth-child(2)
+{
+    margin-bottom: 10px;
+}
+.list1 :nth-child(3)
+{
+    margin-bottom: 10px;
+}
+.list1 :nth-child(4)
+{
+    margin-bottom: 10px;
+}
+
+/* profile */
+.profil{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 145px;
+}
+
+.text1{
+    text-align: center;
+    margin-right: 350px;
+    margin-top: -900px;
+    font-size: 20px;
+}
+
+.profil img{
+    width: 140px;
+    margin-left: 36%;
+    margin-top: 3%;
+    border-radius: 50%;
+}
+
+.profil h3{
+    text-align: center;
+    margin-right: 400px;
+    margin-top: -30px;
+    text-decoration: underline;
+}
+
+.nama-depan{
+    float: left;
+    margin-left: 50%;
+    margin-top: -18%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.nama-depan h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+
+.nama-belakang{
+    float: left;
+    margin-left: 50%;
+    margin-top: -10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.nama-belakang h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.alamat-email{
+    float: left;
+    margin-left: 37%;
+    margin-top: -2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.alamat-email h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+
+.nomor{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.nomor h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+
+.gender{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.gender h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.alamat{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.alamat h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.provinsi{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.provinsi h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.kecamatan{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.kecamatan h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.kota{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.kota h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.desa{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.desa h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.kodepos{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.kodepos h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+
+
+
+/* form*/
+.nama-depan input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 300px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nama-belakang input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 300px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.alamat-email input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nomor input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.gender input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.alamat input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.provinsi input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.kecamatan input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+
+
+.kota input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.desa input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.kodepos input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 550px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+
+
+
+.simpan{
+    float: left;
+    margin-left: 55%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.simpan a{
+    font-weight: 500;
+    background-color: #82AE97;
+    color: #FBF8F3;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.simpan a:hover{
+    background-color: #5BA17B;
+    color: #FBF8F3;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.box-container
+{
+    display: flex;
+    text-align: justify;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.box-1, .box-2, .box-3
+{
+    box-shadow: 1px 5px 12px;
+    background-color: #9ED1B6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    padding: 50px 50px 50px 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.box-1 a, .box-2 a, .box-3 a
+{
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    width: 500px;
+}
+
+.box-1 p:nth-child(2), .box-2 p:nth-child(2), .box-3 p:nth-child(2)   
+{
+    font-family: poppins;
+    font-size: 45px;
+    padding-top: 5%;
+    font-weight: 600;
+}
+
+
+.sampahmasuk
+{
+    border-radius: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 37%;
+    height: 150%;
+}
+
+
+.tanggal{
+    float: left;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.tanggal h1{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.tanggal input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 10px 375px 10px 25px;
+    border:  2px solid #797979;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+
+
+

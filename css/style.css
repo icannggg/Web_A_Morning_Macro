@@ -795,3 +795,21 @@ button
     transform: translate(400px, -112px);
     font-weight: 500;
 }
+
+.contact {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+  }
+  
+  #copyright {
+      background: var(--second-bg-color);
+      font-size: 1.6rem;
+      text-align: center;
+      width: 100%;
+      padding: 50px 0px 50px 0px;
+      /* margin-top: 40px; */
+  }

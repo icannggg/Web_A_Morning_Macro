@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/nasabah.css">
     <title>Sign In</title>
+    <script>
+        function toMain(){
+          window.location.href = "user.html"
+        }
+      </script>
 </head>
 <body>
     <section id="signup">
@@ -52,7 +57,7 @@
                         <hr>
                     </div>
                     
-                    <a href="user.html"><button type="submit" class="btn">Daftar</button></a>
+                    <button type="submit" class="btn" onclick="toMain()">Daftar</button>
                 </form>
             </div>
         </div>
